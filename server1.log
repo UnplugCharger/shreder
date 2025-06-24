@@ -1,0 +1,17 @@
+{"level":"debug","time":"2025-06-24T18:28:07+03:00","message":"Starting server on port :8060 with peers: [http://localhost:8061]"}
+2025/06/24 18:28:07 Cache server initialized with selfID: :8060, peers: [http://localhost:8061]
+2025/06/24 18:28:14 Received SET request from [::1]:65201
+2025/06/24 18:28:14 SET: Key=test1, TargetNode=http://localhost:8061, SelfID=:8060, IsReplication=false
+2025/06/24 18:28:14 Forwarding request for key test1 to node http://localhost:8061
+2025/06/24 18:28:14 Received SET request from [::1]:65203
+2025/06/24 18:28:14 SET: Key=test1, TargetNode=http://localhost:8061, SelfID=:8060, IsReplication=true
+2025/06/24 18:28:14 Forwarding request for key test1 to node http://localhost:8061
+2025/06/24 18:28:14 Received SET request from [::1]:65203
+2025/06/24 18:28:14 SET: Key=test2, TargetNode=:8060, SelfID=:8060, IsReplication=true
+{"level":"info","time":"2025-06-24T18:28:14+03:00","message":"cache capacity  10 "}
+{"level":"info","time":"2025-06-24T18:28:14+03:00","message":"cache size  0 "}
+2025/06/24 18:28:14 Stored key test2 locally
+2025/06/24 18:28:16 GET: Key=test1, TargetNode=http://localhost:8061, SelfID=:8060
+2025/06/24 18:28:16 Forwarding GET request for key test1 to node http://localhost:8061
+2025/06/24 18:28:16 GET: Key=test2, TargetNode=:8060, SelfID=:8060
+2025/06/24 18:28:16 Found key test2 locally with value world
